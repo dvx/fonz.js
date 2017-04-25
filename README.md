@@ -3,6 +3,8 @@ fonz.js
 
 A node library that accurately validates phone numbers. It tries its best to abide by NANPA standards, but international numbers are not yet supported.
 
+[![Build Status](https://travis-ci.org/dvx/fonz.js.svg?branch=master)](https://travis-ci.org/dvx/fonz.js)
+
 <p align="center">
   <img src="http://dvt.name/wp-content/uploads/2017/04/Fonzie-images1.jpg" alt="Fonzie!""/>
 </p>
