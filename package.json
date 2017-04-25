@@ -1,0 +1,30 @@
+{
+  "name": "fonz.js",
+  "version": "1.0.0",
+  "description": "A node library that accurately validates phone numbers.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dvx/fonz.js.git"
+  },
+  "keywords": [
+    "phone",
+    "validator",
+    "mobile",
+    "cellphone",
+    "valid"
+  ],
+  "author": "David Titarenco <david.titarenco@gmail.com> (http://dvt.name)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dvx/fonz.js/issues"
+  },
+  "homepage": "https://github.com/dvx/fonz.js#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.3.0"
+  }
+}
