@@ -3,6 +3,10 @@ fonz.js
 
 A node library that accurately validates phone numbers. It tries its best to abide by NANPA standards, but international numbers are not yet supported.
 
+<p align="center">
+  <img src="http://dvt.name/wp-content/uploads/2017/04/Fonzie-images1.jpg" alt="Fonzie!""/>
+</p>
+
 ### Why fonz.js?
 Fonz.js validates whether or not an input is a valid North American phone number according to the [North American Numbering Plan Administration](https://www.nationalnanpa.com/index.html). It verifies area codes, exchange codes, and station codes. To do this verification, all non-numeric characters are stripped. In some cases, results are better than Google's libphonenumber. For example, the following (correctly) do not pass validation using fonz.js:
 
@@ -12,8 +16,6 @@ Fonz.js validates whether or not an input is a valid North American phone number
 - 770-555-1212
 
 Other validators incorrectly mark them as valid. To read more about how and why fonz.js was written, check out the blog post [here](http://dvt.name/2017/04/25/fonz-js-a-better-phone-verification-library/).
-
-![Fonzie](http://dvt.name/wp-content/uploads/2017/04/Fonzie-images1.jpg)
 
 ## Installation
 
