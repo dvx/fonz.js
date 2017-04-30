@@ -61,10 +61,10 @@ module.exports = {
     
     // if size == 11, should always lead with a 1
     if (phone.length == 11) {
-      if (phone[0] != 1) {
+      if (phone[0] != '1') {
         return false;
       } else {
-        phone = phone.substring(1, phone.length);
+        phone = phone.substring(1);
       }
     }
     
@@ -82,7 +82,7 @@ module.exports = {
     }
       
     // exchange code sanity check: cannot end in two 1's
-    if (exchange_code[1] == '1' && exchange_code[2] == '1') {
+    if (exchange_code.substring(1) == '11') {
       return false;
     }
         
