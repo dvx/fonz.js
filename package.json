@@ -1,6 +1,6 @@
 {
   "name": "fonz.js",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A node library that accurately validates phone numbers.",
   "main": "index.js",
   "scripts": {
